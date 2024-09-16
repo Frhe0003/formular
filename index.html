@@ -3,14 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 <body>
     <form action="form">
         <h1>Book kamera</h1>
         <p>udfyld denne formular hvis du vil booke dette kamera</p>
-        
-    </form>
+        <div class="data">
+        <fieldset id="data">
+       <div>     
+<label for="Navn">Navn</label>
+<input type="Navn" placeholder="Indtast dit navn" name="Navn" required>
+</div>
+<div>
+<label for="Email">Email</label>
+<input type="Email" placeholder="Skriv din Email" name="Email" required>
+</div>
+<div>
+<label for="Hvornår vil du gerne booke kameraet">Angiv tidspunkt</label>
+<input type="Tidspnkt" placeholder="Tidspunkt" name="Tidspunkt" required>
+</div>
+</div>
+        </fieldset>
+<div class="knap">
+        <fieldset id="knap">
+            <legend> book</legend>
+<button type="button" class="lån">Lån</button>
+        </fieldset>
+    </div>
+ </form>
     
 </body>
 </html>
